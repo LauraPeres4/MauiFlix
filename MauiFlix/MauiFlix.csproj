@@ -57,9 +57,36 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\entreirmaos.jpg" />
+	  <None Remove="Resources\Images\evangelion.jpg" />
+	  <None Remove="Resources\Images\images.jpg" />
+	  <None Remove="Resources\Images\matrix.jpg" />
+	  <None Remove="Resources\Images\modaozushi1.jpg" />
+	  <None Remove="Resources\Images\pobrescriaturas.jpg" />
+	  <None Remove="Resources\Images\up.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Filmes\" />
+	  <Folder Include="Resources\Images\NovaPasta\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Categoria\Aventura.xaml.cs">
+	    <DependentUpon>Aventura.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Categoria\Aventura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
