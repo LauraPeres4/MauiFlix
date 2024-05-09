@@ -73,7 +73,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Filmes\" />
 	  <Folder Include="Resources\Images\NovaPasta\" />
 	</ItemGroup>
 
@@ -81,10 +80,16 @@
 	  <Compile Update="Categoria\Aventura.xaml.cs">
 	    <DependentUpon>Aventura.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Filmes\evangelion.xaml.cs">
+	    <DependentUpon>evangelion.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Update="Categoria\Aventura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\evangelion.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

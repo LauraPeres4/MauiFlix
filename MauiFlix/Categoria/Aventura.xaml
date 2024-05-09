@@ -14,7 +14,7 @@
                              Source="modaozushi1.jpg" x:Name="btnModao"
                              Clicked="btnModao_Clicked"/>
                 
-                <ImageButton Grid.Column="1" Grid.Row="0" Source="evangelion.jpg"
+                <ImageButton Grid.Column="1" Grid.Row="0" GridColumn="1" Source="evangelion.jpg"
                              
 
 
