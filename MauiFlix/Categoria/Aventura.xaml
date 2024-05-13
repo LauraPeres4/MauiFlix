@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiFlix.Categoria.NewPage1"
+             x:Class="MauiFlix.Categoria.Aventura"
              Title="Aventura"
              Background="White">
     
@@ -13,9 +13,9 @@
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
                              Source="modaozushi1.jpg" x:Name="btnModao"
                              Clicked="btnModao_Clicked"/>
-                
-                <ImageButton Grid.Column="1" Grid.Row="0" GridColumn="1" Source="evangelion.jpg"
-                             
+
+                <ImageButton Grid.Row="0" Grid.Column="1" Source="evangelion.jpg" />
+
 
 
 
