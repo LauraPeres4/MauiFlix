@@ -10,6 +10,15 @@
 
         private void aventura_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                Navigation.PushAsync(new Categoria.Aventura.MainAventura());
+
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
 
         }
 

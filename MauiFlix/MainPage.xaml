@@ -9,10 +9,10 @@
                 <Setter Property="HorizontalOptions" Value="Fill"/>
                 <Setter Property="VerticalOptions" Value="Fill"/>
                 <Setter Property="FontSize" Value="25"/>
-                <Setter Property="TextColor" Value="Red"/>
-                <Setter Property="BackgroundColor" Value="Red"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="BackgroundColor" Value="Olive"/>
                 <Setter Property="CornerRadius" Value="1"/>
-                <Setter Property="BorderColor" Value="Black"/>
+                <Setter Property="BorderColor" Value="Olive"/>
                 <Setter Property="BorderWidth" Value="1"/>
             </Style>
         </ResourceDictionary>

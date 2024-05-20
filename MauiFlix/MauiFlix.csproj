@@ -57,6 +57,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Categoria\NovaPasta\**" />
+	  <Compile Remove="Categoria\NovaPasta\**" />
+	  <EmbeddedResource Remove="Categoria\NovaPasta\**" />
+	  <MauiCss Remove="Categoria\NovaPasta\**" />
+	  <MauiXaml Remove="Categoria\NovaPasta\**" />
+	  <None Remove="Categoria\NovaPasta\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Remove="Categoria\Aventura.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\entreirmaos.jpg" />
 	  <None Remove="Resources\Images\evangelion.jpg" />
 	  <None Remove="Resources\Images\images.jpg" />
@@ -73,6 +86,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="Categoria\NovaPasta1\" />
 	  <Folder Include="Resources\Images\NovaPasta\" />
 	</ItemGroup>
 
@@ -86,7 +100,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Categoria\Aventura.xaml">
+	  <MauiXaml Update="Categoria\NewPage1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\evangelion.xaml">
